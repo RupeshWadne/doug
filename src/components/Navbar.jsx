@@ -10,8 +10,8 @@ const Navbar = () => {
             </div>
             <div className="flex justify-around items-center w-1/6">
             <img className="w-8 cursor-pointer" src="/xlogo.png" alt="" />
-            <img className="w-8 cursor-pointer" src="/Tlogo.png" alt="" />
-            <img className="w-8 cursor-pointer" src="/vector.png" alt="" />
+            <img className="w-8 cursor-pointer" src="/TelegramLogo.png" alt="" />
+            <img className="w-8 cursor-pointer" src="/Vector.png" alt="" />
             </div>
         </div>
     )
