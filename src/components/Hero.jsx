@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="relative md:h-[210vh] h-[110vh]">
+        <div id="contact" className="relative md:h-[210vh] h-[110vh]">
             <img className="w-full h-full absolute" src="/bg.png" alt="" />
             <img className="w-full h-full absolute" src="/gradient.png" alt="" />
 

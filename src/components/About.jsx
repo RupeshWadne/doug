@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="relative md:h-full h-[110vh]">
+        <div id="about" className="relative md:h-full h-[110vh]">
             <img className="w-full h-full object-cover" src="/aboutbg.png" alt="" />
             <h1 className="absolute -translate-x-1/2 left-1/2 top-48 md:top-64 text-5xl font-extrabold">About</h1>
             <div className="absolute p-4 md:w-fit w-full -translate-x-1/2 left-1/2 top-64 md:top-96">
