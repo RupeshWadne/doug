@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="relative bg-[#8C6239] text-[#F9F3B9] h-[60vh] flex justify-center mt-10">
+    <div className="relative bg-[#8C6239] text-[#F9F3B9] h-[80vh] md:h-[60vh] flex justify-center mt-10">
       <div className="flex flex-col items-center">
         <img className="cursor-pointer mb-10 w-32" src="/navlogo.png" alt="" />
         <div className="flex justify-between w-48">
@@ -15,7 +15,7 @@ const Footer = () => {
           src="/Divider.png"
           alt=""
         />
-        <div className="flex justify-between w-full mt-7">
+        <div className="flex md:flex-row flex-col items-center gap-5 justify-between w-full mt-7">
           <p>© 2024 $DOUG. All rights reserved.</p>
           <div className="flex items-center justify-between w-40">
             Powered by
